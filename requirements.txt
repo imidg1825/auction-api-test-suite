@@ -1,0 +1,5 @@
+pytest==8.0.0 
+requests==2.31.0 
+faker==20.1.0 
+python-dotenv==1.0.0 
+allure-pytest==2.13.5
