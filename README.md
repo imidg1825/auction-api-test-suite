@@ -4,6 +4,7 @@
 ![Pytest](https://img.shields.io/badge/pytest-tested-green)
 ![Allure](https://img.shields.io/badge/allure-report-orange)
 ![Docker](https://img.shields.io/badge/docker-ready-blue)
+![CI](https://github.com/imidg1825/auction-api-test-suite/actions/workflows/tests.yml/badge.svg)
 
 В проекте реализовано 78 автотестов, покрывающих ключевые бизнес-сценарии регистрации пользователей (позитивные, негативные и граничные кейсы).
 
@@ -25,6 +26,7 @@
 - **allure-pytest** — отчёты Allure (эпики, фичи, шаги, вложения)  
 - **python-dotenv / config** — окружение и базовый URL (см. `config/`)
 - **Docker** — запуск тестов в изолированном контейнере
+- **GitHub Actions** — CI/CD: автоматический запуск тестов при каждом push и pull request
 
 ---
 
@@ -119,6 +121,21 @@ docker build -t a-ads-autotests .
 ```bash
 docker run --rm a-ads-autotests
 ```
+
+## CI / GitHub Actions ⚙
+
+В проекте настроен CI через GitHub Actions.
+
+При каждом push и pull request:
+- автоматически устанавливаются зависимости
+- запускаются все автотесты (pytest)
+- проверяется стабильность API
+
+Это позволяет:
+- быстро выявлять ошибки
+- гарантировать, что тесты всегда проходят
+- поддерживать качество проекта на стабильном уровне
+
 
 ## Пример отчёта Allure 📸
 
