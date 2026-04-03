@@ -4,7 +4,8 @@
 
 [![Open Allure Report](https://img.shields.io/badge/📊_Open_Allure_Report-brightgreen?style=for-the-badge)](https://imidg1825.github.io/auction-api-test-suite/) [![Run Tests](https://img.shields.io/badge/▶_RUN_TESTS-blue?style=for-the-badge)](https://github.com/imidg1825/auction-api-test-suite/actions)
 
-Можно открыть отчет с результатами или запустить новый прогон тестов через GitHub Actions.
+Кнопка OPEN ALLURE REPORT открывает актуальный отчет с результатами тестирования.  
+Кнопка RUN TESTS переводит в GitHub Actions, где можно запустить новый прогон тестов (Run workflow).
 
 В проекте реализовано 78 автотестов, покрывающих ключевые бизнес-сценарии регистрации пользователей (позитивные, негативные и граничные кейсы).
 
