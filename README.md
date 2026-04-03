@@ -2,7 +2,9 @@
 
 ![Python](https://img.shields.io/badge/python-3.10+-blue) ![Pytest](https://img.shields.io/badge/pytest-tested-green) ![Allure](https://img.shields.io/badge/allure-report-orange) ![Docker](https://img.shields.io/badge/docker-ready-blue) ![CI](https://github.com/imidg1825/auction-api-test-suite/actions/workflows/tests.yml/badge.svg)
 
-[![Open Allure Report](https://img.shields.io/badge/📊_Open_Allure_Report-brightgreen?style=for-the-badge)](https://imidg1825.github.io/auction-api-test-suite/)
+[![Open Allure Report](https://img.shields.io/badge/📊_Open_Allure_Report-brightgreen?style=for-the-badge)](https://imidg1825.github.io/auction-api-test-suite/) [![Run Tests](https://img.shields.io/badge/▶_RUN_TESTS-blue?style=for-the-badge)](https://github.com/imidg1825/auction-api-test-suite/actions)
+
+Можно открыть отчет с результатами или запустить новый прогон тестов через GitHub Actions.
 
 В проекте реализовано 78 автотестов, покрывающих ключевые бизнес-сценарии регистрации пользователей (позитивные, негативные и граничные кейсы).
 
